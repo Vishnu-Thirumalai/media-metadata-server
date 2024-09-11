@@ -1,0 +1,23 @@
+curl -s -XPOST -d'{"contentType":"video"}'  http://localhost:8080/listItems
+expected: both movies
+
+curl -s -XPOST -d'{"genre":"debate"}'  http://localhost:8080/listItems
+expected: podcast
+
+curl -s -XPOST -d'{"ageRating":"PG"}'  http://localhost:8080/listItems
+expected: despicable me 4
+
+curl -s -XPOST -d'{"searchString":"Jackman"}'  http://localhost:8080/listItems
+expected: movie1
+
+curl -s -XPOST -d'{"SortByYear":true}'  http://localhost:8080/listItems
+expected: podcast followed by both movies
+
+curl -s -XPOST -d'{"contentType":"video","searchString":"experiential"}' http://localhost:8080/listItems
+expected: blank
+
+curl -s -XPOST -d'{"id":"podcast_1"}' http://localhost:8080/getEpisodesForSeries
+expected: both episodes
+
+curl -s -XPOST -d'{"id":"movie_2"}' http://localhost:8080/contentInfo
+expected: despicable me 4

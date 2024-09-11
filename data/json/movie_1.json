@@ -1,0 +1,21 @@
+{
+  "id": "movie_1",
+  "title": "Movie1",
+  "description": "There is a plot, of sorts",
+  "genres": [
+    "action",
+    "adventure",
+    "comedy"
+  ],
+  "type": "video",
+  "durationInMin": 128,
+  "ageRating": "15",
+  "year": 2024,
+  "directors": [
+    "Richard Potato"
+  ],
+  "stars": [
+    "Hugh Jackman",
+    "Ryan Reynolds"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "podcast_ep_2",
+  "parent": "podcast_1",
+  "type": "audio",
+  "episodeNumber": 12,
+  "title": "Nocebo Jose-bo",
+  "durationInMin": 45,
+  "description": "Talking about the effects of calling a burrito spicy."
+}

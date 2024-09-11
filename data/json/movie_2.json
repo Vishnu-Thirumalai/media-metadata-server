@@ -1,0 +1,22 @@
+{
+  "id": "movie_2",
+  "title": "The unexpected sequel",
+  "description": "Let's be honest, the first one made enough money that this was inevitable",
+  "genres": [
+    "animation",
+    "adventure",
+    "comedy"
+  ],
+  "type": "video",
+  "durationInMin": 94,
+  "ageRating": "U",
+  "year": 2024,
+  "directors": [
+    "Doe Snt Matter"
+  ],
+  "stars": [
+    "needlessly famous celeb 1",
+    "needlessly famous celeb 2",
+    "needlessly famous celeb 3"
+  ]
+}

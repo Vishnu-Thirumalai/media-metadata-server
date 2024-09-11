@@ -1,0 +1,24 @@
+CREATE TEMPORARY TABLE content(
+    ID          text,
+	Title       text,
+	Description text,
+	ContentType text,
+    Genres        text[],
+	AgeRating     text,
+	DurationInMin int,
+	Year          int,
+	Directors     text[],
+	Stars         text[],
+    PRIMARY KEY(ID)
+);
+
+CREATE TEMPORARY TABLE episodes(
+    ID          text,
+	Title       text,
+	Description text,
+	ContentType text,
+    Parent        text,
+	EpisodeNumber text,
+	DurationInMin int,
+    PRIMARY KEY(ID)
+);

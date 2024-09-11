@@ -1,0 +1,9 @@
+{
+  "id": "podcast_ep_1",
+  "parent": "podcast_1",
+  "type": "audio",
+  "episodeNumber": 11,
+  "title": "The One with the donut",
+  "durationInMin": 17,
+  "description": "So you eat donuts right? Why?"
+}
